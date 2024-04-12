@@ -29,9 +29,9 @@ body{
     height: 25vh;
     margin-left: 5%;
     margin-bottom: 5%
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-end;
+    display flex
+    justify-content flex-start
+    align-items flex-end
 
 }
 .subheading{
@@ -55,9 +55,6 @@ body{
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-}
-.form-divs{
-   
 }
 input{
     width: 200px;
@@ -99,15 +96,36 @@ p{
 
 }
 .p-footer{
-    text-align: center;
     font-size: 12px;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
 
 }
 .for-footer{
-    display: flex;
-    justify-content: ;
-    l
+
+ 
 }
 .image{
     height:40vh;
+    display:flex;
+    align-items: flex-end;
+    width: 100%;
+    justify-content: center;
+}
+.last-p{
+    color: black;
+}
+.image-wrap{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+    background-color: black;
+    opacity: 0.5;
+    align-items: center;
+    font-family: Norse-bold, sans-serif;
+}
+h1{
+    color: white;
 }
