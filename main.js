@@ -1,4 +1,4 @@
-ssdocument.addEventListener("DOMContentLoaded", function(){
+document.addEventListener("DOMContentLoaded", function(){
     let password = document.getElementById("#password").value;
     let confirmedPassword = document.getElementById("#confirmPassword").value;
 
